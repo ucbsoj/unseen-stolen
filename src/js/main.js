@@ -8,6 +8,9 @@ setTimeout(function(){
 }, 100);
 
 
+
+
+
 //var imgReveal = $('#top-quote').offset().top;
 
 
@@ -27,6 +30,12 @@ $(document).scroll(function() {
 
   var scroll = $(document).scrollTop();
 
+  console.log($("#headers-appear").offset().top, scroll);
+
+  if(scroll > $("#headers-appear").offset().top){
+    $("#headers-appear h3").addClass("active");
+  }
+
 
   if (scroll > 300) {
 
@@ -38,11 +47,11 @@ $(document).scroll(function() {
   
   }
 
-  if (scroll > imgReveal){
+  // if (scroll > imgReveal){
 
-  	$(".bg-img").css({"-webkit-filter": "blur(0px)","filter": "blur(0px)" })  
+  // 	$(".bg-img").css({"-webkit-filter": "blur(0px)","filter": "blur(0px)" })  
   
-  } 
+  // } 
 
 
 });

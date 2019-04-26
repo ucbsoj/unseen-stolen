@@ -2,9 +2,7 @@
 <html lang="en-US">
 
 <head>
-    <title>
-        <%= json.project.seo_title %>
-    </title>
+    <title><%= json.project.seo_title %></title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
@@ -15,33 +13,41 @@
 
 <body>
     <%= t.include("partials/_nav.html", grunt.data.json) %>
-    <div id="background-line-down-middle"></div>
+    <!-- <div id="background-line-down-middle"></div> -->
     
     <div id="skrollr-body">
-        <div class="container white-background position-relative">
+        <div class="container position-relative" role="main">
+
+
             <section id="topper" class="d-flex align-items-center justify-content-center">
-                <div class="left-container">
+<!--                 <div class="left-container">
                     <div class="left-side"></div>
-                </div>
+                </div> -->
                 <div class="title middle-container text-center d-flex flex-column position-relative">
-                    <div class="top-container d-flex justify-content-center">
+<!--                     <div class="top-container d-flex justify-content-center">
                         <div class="top-side"></div>
-                    </div>
-                    <h1 class="text-center">Stolen</h1>
-                    <p class="deck" style="max-width:340px;">HI ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <div class="bottom-container d-flex justify-content-center">
+                    </div> -->
+                    <h1 class="text-center text-hide" style="background-image: url(/assets/STOLEN_FINAL_PNG.png);">Stolen</h1>
+<!--                     <div class="bottom-container d-flex justify-content-center">
                         <div class="bottom-side"></div>
-                    </div>
+                    </div> -->
                     <div class="line-down-middle-container">
                         <div class="line-down-middle"></div>
                     </div>
                 </div>
-                <div class="right-container">
+<!--                 <div class="right-container">
                     <div class="right-side"></div>
-                </div>
+                </div> -->
             </section>
         </div>
-        <section id="second" class="container">
+
+        <div id="headers-appear" class="container text-center mb-5">
+            <h3 class="shrink-mobile">Wage theft is rampant</h3>
+            <h3 class="shrink-mobile">Federal enforcement is down</h3>
+            <h3 class="shrink-mobile">And California is struggling to fill the gap...</h3>
+        </div>
+
+<!--         <section id="second" class="container">
             <div class="row justify-content-between">
                 <div class="col-5">
                     <img src="http://placehold.it/1800x2000" class="img-fluid d-block" alt="Placeholder">
@@ -70,8 +76,8 @@
                     <h3 data-200-center-top="opacity:0;" data-100-center-top="opacity:1;" class="shrink-mobile">And California is struggling to fill the gap...</h3>
                 </div>
             </div>
-        </section>
-        <div class="container white-background mt-5">
+        </section> -->
+        <div class="container white-background mt-5 pt-5">
             <img src="./assets/Romelio.jpg" class="img-fluid d-block" alt="image description">
         </div>
         <div id="end-middle-line"></div>
@@ -115,7 +121,8 @@
                     <p> After identifying and removing duplicate claims filed with the eight district offices provided through a public records request, the analysis found that during that period more than $87 million was estimated to be owed to workers in wages.  Approximately 19,260 of those cases were closed within those 22 months, a quarter of of which were dropped because the worker did not appear at either their conference or hearing, or notified the Labor Commissioner’s Office of their intent to withdraw. </p>
 
                      <figure class="inline-asset">
-                        <img src="assets/combination-chart.png" class="img-fluid d-block" alt="description">
+                        <script type='text/javascript' src='https://10ay.online.tableau.com/javascripts/api/viz_v1.js'></script>
+                        <div class='tableauPlaceholder' style='width: 100%; height: 734px;'><object class='tableauViz' width='100%' height='734' style='display:none;'><param name='host_url' value='https%3A%2F%2F10ay.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;jslowiczek' /><param name='name' value='OutcomeofResolvedDLSECases&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='filter' value='iframeSizedToWindow=true' /><param name='showAppBanner' value='false' /><param name='display_count' value='no' /></object></div>
                         <figcaption class="caption">Photo caption here.... <span class="credit">Photo by Photographer</span></figcaption>
                     </figure>
 
