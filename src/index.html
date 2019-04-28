@@ -2,51 +2,39 @@
 <html lang="en-US">
 
 <head>
-    <title><%= json.project.seo_title %></title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
-    <link rel="stylesheet" type="text/css" href="./assets/bootstrap.css">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <%= t.include("partials/_meta.html", grunt.data.json) %>
+  <title><%= json.project.seo_title %></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+  <link rel="stylesheet" type="text/css" href="./assets/bootstrap.css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <%= t.include("partials/_meta.html", grunt.data.json) %>
 </head>
 
 <body>
     <%= t.include("partials/_nav.html", grunt.data.json) %>
-    <!-- <div id="background-line-down-middle"></div> -->
-    
+
+
     <div id="skrollr-body">
-        <div class="container position-relative" role="main">
+      
+      <div class="container position-relative" role="main">
+        <section id="topper" class="d-flex align-items-center justify-content-center">
+          <div class="title middle-container text-center d-flex flex-column position-relative">
+            <h1 class="text-center text-hide" style="background-image: url(/assets/STOLEN_FINAL_PNG.png);">Stolen</h1>
+            <div class="line-down-middle-container">
+            	<div class="line-down-middle"></div>
+            </div>
+          </div>
+        </section>
+      </div>
 
-
-            <section id="topper" class="d-flex align-items-center justify-content-center">
-<!--                 <div class="left-container">
-                    <div class="left-side"></div>
-                </div> -->
-                <div class="title middle-container text-center d-flex flex-column position-relative">
-<!--                     <div class="top-container d-flex justify-content-center">
-                        <div class="top-side"></div>
-                    </div> -->
-                    <h1 class="text-center text-hide" style="background-image: url(/assets/STOLEN_FINAL_PNG.png);">Stolen</h1>
-<!--                     <div class="bottom-container d-flex justify-content-center">
-                        <div class="bottom-side"></div>
-                    </div> -->
-                    <div class="line-down-middle-container">
-                        <div class="line-down-middle"></div>
-                    </div>
-                </div>
-<!--                 <div class="right-container">
-                    <div class="right-side"></div>
-                </div> -->
-            </section>
-        </div>
-
-        <div id="headers-appear" class="container text-center mb-5">
-            <h3 class="shrink-mobile">Wage theft is rampant</h3>
-            <h3 class="shrink-mobile">Federal enforcement is down</h3>
-            <h3 class="shrink-mobile">And California is struggling to fill the gap...</h3>
-        </div>
+      <div id="headers-appear" class="container text-center mb-5">
+        <h3 class="shrink-mobile">Wage theft is rampant</h3>
+        <h3 class="shrink-mobile">Federal enforcement is down</h3>
+        <h3 class="shrink-mobile">And California is struggling to fill the gap...</h3>
+      </div>
 
 <!--         <section id="second" class="container">
             <div class="row justify-content-between">
@@ -78,263 +66,289 @@
                 </div>
             </div>
         </section> -->
-        <div class="container white-background mt-5 pt-5">
-            <img src="./assets/Romelio.jpg" class="img-fluid d-block" alt="image description">
-        </div>
-        <div id="end-middle-line"></div>
-        <section id="fifth" class="container white-background pt-5">
-            <article class="row justify-content-right">
-                <div class="col-12 col-sm-8">
+      <div class="container white-background mt-5 pt-5">
+        <img src="./assets/Romelio.jpg" class="img-fluid d-block" alt="image description">
+      </div>
+        
+      
+      <div id="end-middle-line"></div>
+      
+      
+      <section id="fifth" class="container white-background pt-5">
+  
+        <article class="row justify-content-right">
+          
+          <div class="col-12 col-sm-8">
 
-                    <figure class="inline-asset-header">
-                        <img src="assets/1_COMMON.jpg" class="img-fluid d-block" alt="description">
-                    </figure>
+            <figure class="inline-asset-header">
+              <img src="assets/1_COMMON.jpg" class="img-fluid d-block" alt="description">
+            </figure>
 
-                    <p>For Romelio Aldana, every day counts.  </p>
+            <p>For Romelio Aldana, every day counts.  </p>
 
-                    <p> He pays attention to the weather each morning, because it impacts his ability to work as a day laborer. He counts the days of every month. The shorter the month, the faster he has to make rent. Some nights, he falls asleep worried he won’t have work the next day. </p>
+            <p> He pays attention to the weather each morning, because it impacts his ability to work as a day laborer. He counts the days of every month. The shorter the month, the faster he has to make rent. Some nights, he falls asleep worried he won’t have work the next day. </p>
 
-                    <p> He also worries about the kind of contractor he’ll end up with. Will it be one who pays, or will he go home empty handed? He’s worked a lot of jobs. At a furniture store in California. A lamp factory in New York. As a fisherman in Puerto Rico. But nothing could compare to the stress he feels as a day laborer in Oakland. “We all have the right to survive,” he says, “but not to survive at the expense of the other.” </p>
+            <p> He also worries about the kind of contractor he’ll end up with. Will it be one who pays, or will he go home empty handed? He’s worked a lot of jobs. At a furniture store in California. A lamp factory in New York. As a fisherman in Puerto Rico. But nothing could compare to the stress he feels as a day laborer in Oakland. “We all have the right to survive,” he says, “but not to survive at the expense of the other.” </p>
 
-                    <p> Aldana, a legal resident of the United States from Mexico, has had his wages stolen four times, most recently in early 2018. Yet nine months after his claim was filed with the Labor Commissioner’s Office, when his case came up for a scheduled settlement conference, he was unable to attend due to personal matter. So, his case was dropped and his efforts came to naught. 
-                    </p>
-            
-                    <p> Aldana’s experience is common in California, but stories like his rarely get attention. Wage theft—when employees aren’t paid the wages they are legally entitled to—is “rampant” in the golden state and can affect workers in every industry. But despite the state’s efforts to address the issue, experts say that it remains largely underreported and under-enforced. </p>
+            <p> Aldana, a legal resident of the United States from Mexico, has had his wages stolen four times, most recently in early 2018. Yet nine months after his claim was filed with the Labor Commissioner’s Office, when his case came up for a scheduled settlement conference, he was unable to attend due to personal matter. So, his case was dropped and his efforts came to naught. 
+            </p>
+    
+            <p> Aldana’s experience is common in California, but stories like his rarely get attention. Wage theft—when employees aren’t paid the wages they are legally entitled to—is “rampant” in the golden state and can affect workers in every industry. But despite the state’s efforts to address the issue, experts say that it remains largely underreported and under-enforced. </p>
 
-                    <p> Wage theft hits the most vulnerable workers the hardest, people in low-wage industries and those least likely to be able to successfully file a claim against an employer, either because of the complicated process or out of fear. Experts say that immigrant workers, like Aldana, are twice as likely to experience it. Women and people of color are also more likely to be victims.</p> 
+            <p> Wage theft hits the most vulnerable workers the hardest, people in low-wage industries and those least likely to be able to successfully file a claim against an employer, either because of the complicated process or out of fear. Experts say that immigrant workers, like Aldana, are twice as likely to experience it. Women and people of color are also more likely to be victims.</p> 
 
-                    <p> The crime is seldom reported. The roughly 35,000 claims filed annually with the state Labor Commissioner’s Office amounts to less than one percent of actual incidents of wage theft, according to the UCLA Labor Center. For those workers who do get a ruling in their favor, the likelihood of receiving their wages is low. A 2013 report on the wage claim process in California found that only 17 percent of workers were actually able to recover their wages. Complicating the process further, a lack of funding has hamstrung the enforcement of labor laws, so it takes longer than it should for cases to be resolved. </p>
+            <p> The crime is seldom reported. The roughly 35,000 claims filed annually with the state Labor Commissioner’s Office amounts to less than one percent of actual incidents of wage theft, according to the UCLA Labor Center. For those workers who do get a ruling in their favor, the likelihood of receiving their wages is low. A 2013 report on the wage claim process in California found that only 17 percent of workers were actually able to recover their wages. Complicating the process further, a lack of funding has hamstrung the enforcement of labor laws, so it takes longer than it should for cases to be resolved. </p>
 
-                    <p> An analysis of roughly two years-worth of data obtained from the Labor Commissioner’s Office through a Public Records Act request shows that eight of the 19 district offices in the state received roughly 33,600 claims between January 1, 2017 and November 7, 2018. The eight offices included Bakersfield, Fresno, Los Angeles, Oakland, Sacramento, San Diego, San Francisco and San Jose, which were listed by the US Department of Labor as some of the top cities in California that experience wage theft. </p>
+            <p> An analysis of roughly two years-worth of data obtained from the Labor Commissioner’s Office through a Public Records Act request shows that eight of the 19 district offices in the state received roughly 33,600 claims between January 1, 2017 and November 7, 2018. The eight offices included Bakersfield, Fresno, Los Angeles, Oakland, Sacramento, San Diego, San Francisco and San Jose, which were listed by the US Department of Labor as some of the top cities in California that experience wage theft. </p>
 
-                    <p>The Labor Commissioner’s Office refused to provide a full copy of its database for the last two years because it said that it could not vouch for the accuracy of the information stored in its case management system due to errors and duplications that occurred when its district offices transition to a new system in 2017. Because of of those errors, and what a spokesman described as a lack of quality control, it claims that any totals for amounts that have been paid to workers might not be accurate because settlements could occur outside the official process. </p>
+            <p>The Labor Commissioner’s Office refused to provide a full copy of its database for the last two years because it said that it could not vouch for the accuracy of the information stored in its case management system due to errors and duplications that occurred when its district offices transition to a new system in 2017. Because of of those errors, and what a spokesman described as a lack of quality control, it claims that any totals for amounts that have been paid to workers might not be accurate because settlements could occur outside the official process. </p>
 
-                    <p> After identifying and removing duplicate claims filed with the eight district offices provided through a public records request, the analysis found that during that period more than $87 million was estimated to be owed to workers in wages.  Approximately 19,260 of those cases were closed within those 22 months, a quarter of of which were dropped because the worker did not appear at either their conference or hearing, or notified the Labor Commissioner’s Office of their intent to withdraw. </p>
+            <p> After identifying and removing duplicate claims filed with the eight district offices provided through a public records request, the analysis found that during that period more than $87 million was estimated to be owed to workers in wages.  Approximately 19,260 of those cases were closed within those 22 months, a quarter of of which were dropped because the worker did not appear at either their conference or hearing, or notified the Labor Commissioner’s Office of their intent to withdraw. </p>
 
-                </div>
+          </div>
 
-                 <figure class="inline-asset col-12">
-                    <script type='text/javascript' src='https://10ay.online.tableau.com/javascripts/api/viz_v1.js'></script>
-                    <div class='tableauPlaceholder' style='width: 100%; height: 734px;'><object class='tableauViz' width='100%' height='734' style='display:none;'><param name='host_url' value='https%3A%2F%2F10ay.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;jslowiczek' /><param name='name' value='OutcomeofResolvedDLSECases&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='filter' value='iframeSizedToWindow=true' /><param name='showAppBanner' value='false' /><param name='display_count' value='no' /></object></div>
-                    <figcaption class="caption">Photo caption here.... <span class="credit">Photo by Photographer</span></figcaption>
-                </figure>
+         	
+         	<figure class="inline-asset col-12">
+            <script type='text/javascript' src='https://10ay.online.tableau.com/javascripts/api/viz_v1.js'></script>
+            <div class='tableauPlaceholder' style='width: 100%; height: 734px;'><object class='tableauViz' width='100%' height='734' style='display:none;'><param name='host_url' value='https%3A%2F%2F10ay.online.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='&#47;t&#47;jslowiczek' /><param name='name' value='OutcomeofResolvedDLSECases&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='filter' value='iframeSizedToWindow=true' /><param name='showAppBanner' value='false' /><param name='display_count' value='no' /></object></div>
+            <figcaption class="caption">Photo caption here.... <span class="credit">Photo by Photographer</span></figcaption>
+          </figure>
 
-                <div class="col-12 col-sm-8">
 
-                    <p> Approximately 5,210 claims were identified as being settled, paid or having a judgement, but it took on average 206 days to close the case, not the 120 called for by legislation. Of those cases, roughly $10 million of the $23 million is recorded as remaining to be paid. </p>
+          <div class="col-12 col-sm-8">
 
-                    <div class="container white-background mt-5">
-                        <img src="./assets/LC_TIMEFRAME.png" class="img-fluid d-block" alt="image description">
-                    </div>
+          	<p> Approximately 5,210 claims were identified as being settled, paid or having a judgement, but it took on average 206 days to close the case, not the 120 called for by legislation. Of those cases, roughly $10 million of the $23 million is recorded as remaining to be paid. </p>
 
-                     <p> The analysis identified an additional 8,900 cases that were listed as open and had passed the 120 day mark, 75 percent of which had yet to even have a hearing scheduled. The district offices with the largest backlog of these cases were Los Angeles and Oakland. </p> 
+            <div class="white-background">
+          		<img src="./assets/LC_TIMEFRAME.png" class="img-fluid d-block" alt="image description">
+            </div>
 
-                     <p> The state, it turns out, can’t provide an accurate account of its claim system or how much money is recovered. A 2017 report released by the state’s legislative analyst's office reviewing the governor’s proposed budget increases to the office expressed concern that “the DLSE’s data collection and analysis capabilities may not have sufficiently developed to ensure the most effective use of the proposed increased staff.”  </p>
+	          <p> The analysis identified an additional 8,900 cases that were listed as open and had passed the 120 day mark, 75 percent of which had yet to even have a hearing scheduled. The district offices with the largest backlog of these cases were Los Angeles and Oakland. </p> 
 
-                    <p> The Labor Commissioner’s Office could not respond in time to inquiries regarding how it is able to accurately track trends of wage claims if the data it collects is unreliable.  </p>
+	          <p> The state, it turns out, can’t provide an accurate account of its claim system or how much money is recovered. A 2017 report released by the state’s legislative analyst's office reviewing the governor’s proposed budget increases to the office expressed concern that “the DLSE’s data collection and analysis capabilities may not have sufficiently developed to ensure the most effective use of the proposed increased staff.”  </p>
 
-                    <p>The legal concept of wage theft goes back to the tail end of the Great Depression, when President Franklin D Roosevelt signed the Fair Labor Standards Act, a sweeping labor reform that included criminalizing the employment of children under 14, establishing the first minimum wage at 25 cents an hour and limiting the work week to 44 hours.  </p>
+	          <p> The Labor Commissioner’s Office could not respond in time to inquiries regarding how it is able to accurately track trends of wage claims if the data it collects is unreliable.  </p>
 
-                    <p> Within the bill was a simple provision, an employer who violates either the minimum wage or workweek requirement was liable to their employees for unpaid minimum or overtime wages, in addition to an equivalent amount in damages. But it’s only in the past decade that what were known as “wage and hour violations” began to be described as “theft.” In California, it’s a criminal offense, but seldom treated like one. Someone is more likely to be prosecuted for petty theft than wage theft, a fact echoed by employers, workers and the state. </p>
+	          <p>The legal concept of wage theft goes back to the tail end of the Great Depression, when President Franklin D Roosevelt signed the Fair Labor Standards Act, a sweeping labor reform that included criminalizing the employment of children under 14, establishing the first minimum wage at 25 cents an hour and limiting the work week to 44 hours.  </p>
 
-                    <p> Approximately 5,210 claims were identified as being settled, paid or having a judgement, but it took on average 206 days to close the case, not the 120 called for by legislation. Of those cases, roughly $10 million of the $23 million is recorded as remaining to be paid.</p>
+	          <p> Within the bill was a simple provision, an employer who violates either the minimum wage or workweek requirement was liable to their employees for unpaid minimum or overtime wages, in addition to an equivalent amount in damages. But it’s only in the past decade that what were known as “wage and hour violations” began to be described as “theft.” In California, it’s a criminal offense, but seldom treated like one. Someone is more likely to be prosecuted for petty theft than wage theft, a fact echoed by employers, workers and the state. </p>
 
-                    <p> The analysis identified an additional 8,900 cases that were listed as open and had passed the 120 day mark, 75 percent of which had yet to even have a hearing scheduled. The district offices with the largest backlog of these cases were Los Angeles and Oakland. </p>
+	          <p> Approximately 5,210 claims were identified as being settled, paid or having a judgement, but it took on average 206 days to close the case, not the 120 called for by legislation. Of those cases, roughly $10 million of the $23 million is recorded as remaining to be paid.</p>
 
+	          <p> The analysis identified an additional 8,900 cases that were listed as open and had passed the 120 day mark, 75 percent of which had yet to even have a hearing scheduled. The district offices with the largest backlog of these cases were Los Angeles and Oakland. </p>
 
-                    <p>The US Department of Labor, the federal agency tasked with enforcing wage and hour laws, reports that wage theft in the 21st century is costing workers billions of dollars a year and pushing tens of thousands of families below the poverty line. But an analysis of public data maintained by the department shows that, while enforcement peaked in 2010 with approximately 2805 recorded wage violations, it has now dropped to its lowest levels since 2001, with only 237 recorded wage violations. Overall, the department’s budget has been cut by $10 million and 100 employees over the past three years. </p>
+	          <p>The US Department of Labor, the federal agency tasked with enforcing wage and hour laws, reports that wage theft in the 21st century is costing workers billions of dollars a year and pushing tens of thousands of families below the poverty line. But an analysis of public data maintained by the department shows that, while enforcement peaked in 2010 with approximately 2805 recorded wage violations, it has now dropped to its lowest levels since 2001, with only 237 recorded wage violations. Overall, the department’s budget has been cut by $10 million and 100 employees over the past three years. </p>
 
-                    <div class="container white-background mt-5">
-                        <img src="./assets/JEU_SNIPPETS.png" class="img-fluid d-block" alt="image description">
-                    </div>
+	          <div class="container white-background mt-5">
+	              <img src="./assets/JEU_SNIPPETS.png" class="img-fluid d-block" alt="image description">
+	          </div>
 
-                    <p> But it’s still occurring at “staggering levels” in California, according to the California Bureau of FIeld Enforcement, an investigative enforcement arm of the Division of Labor Standards and Enforcement, or Labor Commissioner's Office, the state agency responsible for protecting workers from wage theft and retaliation. </p>
+	          <p>But it’s still occurring at “staggering levels” in California, according to the California Bureau of FIeld Enforcement, an investigative enforcement arm of the Division of Labor Standards and Enforcement, or Labor Commissioner's Office, the state agency responsible for protecting workers from wage theft and retaliation. </p>
 
-                    <div class="embed-responsive embed-responsive-16by9 my-4">
-                        <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/279559382?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-                    </div>
+        	</div>
 
-                </div>
+	        
+	        <div class="embed-responsive embed-responsive-16by9 my-4">
+	          <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/279559382?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+	        </div>
 
-               
-                    </figure>
 
-                    <figure class="inline-asset-header">
-                        <img src="assets/2_CULTUREOFFEAR.jpg" class="img-fluid d-block" alt="description">
-                    </figure>
 
-                    <p>The Labor Commissioner’s Office is the most accessible way for workers to retrieve their stolen wages in California, but experts and advocates say that despite recent legislative efforts to bulk the department up, it is still ill-equipped to address the size, scope and nature of wage theft in the state.</p>
+        	<div class="col-12 col-sm-8">
 
-                    <p>It doesn’t just affect the most vulnerable, though. While it’s often thought of as affecting those working in local restaurants, small retailers and for shady contractors, it can happen to anyone, regardless of income level or industry. </p>
+	          <figure class="inline-asset-header">
+	            <img src="assets/2_CULTUREOFFEAR.jpg" class="img-fluid d-block" alt="description">
+	          </figure>
 
-                     <div class="col-12 col-sm-8">
+          	<p>The Labor Commissioner’s Office is the most accessible way for workers to retrieve their stolen wages in California, but experts and advocates say that despite recent legislative efforts to bulk the department up, it is still ill-equipped to address the size, scope and nature of wage theft in the state.</p>
 
-                     <figure class="inline-asset col-12">
-                       <style>.embed-container {position: relative; padding-bottom: 78%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="embed-container"><iframe width="900" height="700" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Federal Wage and Hour Violations" src="//joshslowiczek.maps.arcgis.com/apps/Embed/index.html?webmap=93740472975e4e08aae0268f42e955c8&extent=-180,-0.6229,7.7494,73.046&zoom=true&previewImage=false&scale=true&legend=true&disable_scroll=true&theme=light"></iframe></div>
-                       
+          	<p>It doesn’t just affect the most vulnerable, though. While it’s often thought of as affecting those working in local restaurants, small retailers and for shady contractors, it can happen to anyone, regardless of income level or industry. </p>
 
-                    <p>Wage theft is also prevalent in corporate America, according to Grand Theft Paycheck, a 2018 report by the national policy and research organization Good Jobs First. Researchers analyzed more than 4,000 successful collective lawsuits and administrative actions taken against major corporations that have been resolved since 2000. The cases generated total penalties of $9.2 billion. Topping the violators list by far was Walmart with $1.4 billion, with FedEx coming in at second place with around $502 million. </p>
+        	</div>
 
-                    <p>Of the top 100 settlements identified in the report, 67 were brought in California, a state that prides itself on strong labor laws and enforcement.</p> 
+      		<figure class="inline-asset col-12">
+	      		<div class="embed-container"><iframe width="900" height="700" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Federal Wage and Hour Violations" src="//joshslowiczek.maps.arcgis.com/apps/Embed/index.html?webmap=93740472975e4e08aae0268f42e955c8&extent=-180,-0.6229,7.7494,73.046&zoom=true&previewImage=false&scale=true&legend=true&disable_scroll=true&theme=light"></iframe></div>
+  	   		</figure>            
 
-                    <p>Oakland Deputy Labor Commissioner Carlos Torres acknowledges that “there is rampant wage theft happening in California.” But it’s rarely reported for a number of reasons. Some people don’t know the office exists, despite outreach and educational campaigns. On the other hand, those who do know how to file a claim might be discouraged by the long and bureaucratic process they must weather if they are to even stand a chance of seeing their wages. </p>
 
-                    <p>“Which means to say that the vast majority of people when they experience wage theft just move on with their lives and never do anything about it, even if they know that it happened. And the employers seem to be more emboldened.” said Tia Koonse, a legal and policy research manager with the UCLA Labor Center. “All of this is predicated on a certain business model that is undercapitalized and never intends to pay anybody their fair wage. How do you legislate greed?” </p>
 
-                    <p>But perhaps the most disturbing reason for not reporting is the “culture of fear” that has added a new layer of vulnerability to the issue in the last few years, with more and more people concerned about retaliation from their employer. And, according to labor attorneys, it has largely gotten worse due to the current political rhetoric surrounding immigration. </p>
 
-                    <p>Anel Flores, the legal director at the California-based janitorial industry watchdog Maintenance Cooperation Trust Fund (MCTF) explains that when undocumented workers used to come to her with threats from their employers who said they’d call Immigration and Customs Enforcement if a wage claim was filed, she would feel confident telling workers that the federal immigration agency wouldn’t “follow up.” But these days, she isn’t so sure. </p>
+					<div class="col-12 col-sm-8">
+        
+	          <p>Wage theft is also prevalent in corporate America, according to Grand Theft Paycheck, a 2018 report by the national policy and research organization Good Jobs First. Researchers analyzed more than 4,000 successful collective lawsuits and administrative actions taken against major corporations that have been resolved since 2000. The cases generated total penalties of $9.2 billion. Topping the violators list by far was Walmart with $1.4 billion, with FedEx coming in at second place with around $502 million. </p>
 
-                    <p>The Labor Commissioner's Office does not inquire about a claimant's legal status at any point during the process, and Deputy Labor Commissioner Torres explained that, aside for the division’s retaliation unit, if officials have reason to believe a worker is being threatened due to their immigration status the wage claim can be fast-tracked. </p>
+	          <p>Of the top 100 settlements identified in the report, 67 were brought in California, a state that prides itself on strong labor laws and enforcement.</p> 
+	          <p>Oakland Deputy Labor Commissioner Carlos Torres acknowledges that “there is rampant wage theft happening in California.” But it’s rarely reported for a number of reasons. Some people don’t know the office exists, despite outreach and educational campaigns. On the other hand, those who do know how to file a claim might be discouraged by the long and bureaucratic process they must weather if they are to even stand a chance of seeing their wages. </p>
 
-                    <p>“We continually underscore the fact that immigration status has nothing to do with workers’ rights here in California,” said Erika Monterroza, a communications director with the Department of Industrial Relations, which the Labor Commissioner’s Office is a part of. “That all workers are protected.” 
-                    </p>
+	          <p>“Which means to say that the vast majority of people when they experience wage theft just move on with their lives and never do anything about it, even if they know that it happened. And the employers seem to be more emboldened.” said Tia Koonse, a legal and policy research manager with the UCLA Labor Center. “All of this is predicated on a certain business model that is undercapitalized and never intends to pay anybody their fair wage. How do you legislate greed?” </p>
 
-                    <div class="embed-responsive embed-responsive-16by9 my-4">
-                        <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/279559382?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-                    </div>
+	          <p>But perhaps the most disturbing reason for not reporting is the “culture of fear” that has added a new layer of vulnerability to the issue in the last few years, with more and more people concerned about retaliation from their employer. And, according to labor attorneys, it has largely gotten worse due to the current political rhetoric surrounding immigration. </p>
 
-                    <figure class="inline-asset-header">
-                        <img src="assets/3_LCOFFICE.jpg" class="img-fluid d-block" alt="description">
-                    </figure>
+	          <p>Anel Flores, the legal director at the California-based janitorial industry watchdog Maintenance Cooperation Trust Fund (MCTF) explains that when undocumented workers used to come to her with threats from their employers who said they’d call Immigration and Customs Enforcement if a wage claim was filed, she would feel confident telling workers that the federal immigration agency wouldn’t “follow up.” But these days, she isn’t so sure. </p>
 
-                    <p> On December 7th, 2018, Katherine Fiester, a staff attorney with the Wage Protection Program for Legal Aid at Work, is instructing a handful of law students who have volunteered to help workers fill out their wage claims. </p> 
+	          <p>The Labor Commissioner's Office does not inquire about a claimant's legal status at any point during the process, and Deputy Labor Commissioner Torres explained that, aside for the division’s retaliation unit, if officials have reason to believe a worker is being threatened due to their immigration status the wage claim can be fast-tracked. </p>
 
-                    <p> She is sitting with one of the workers helping them through the process. “He should take care of what he puts on the timecard,” Fiester tells one of the volunteers. “The calculation takes the most time.”  </p> 
+	          <p>“We continually underscore the fact that immigration status has nothing to do with workers’ rights here in California,” said Erika Monterroza, a communications director with the Department of Industrial Relations, which the Labor Commissioner’s Office is a part of. “That all workers are protected.” 
+	          </p>
 
-                    <p> There are two stacks of forms on the table in the middle of the room. One is in English and the other is in Spanish. On the form, workers are required to fill in blanks with information such as wages promist vs. wages paid, payment method, meal breaks as well as their entire work schedule. A task that is daunting at times, especially if a person doesn’t have all the information required.  </p> 
+	        </div>
 
-                    <p> “Can you go to the bank and get a copy of checks?” Fiester asks one of the workers. He replies that he can not because he was paid in cash. In order to make a strong case to the labor commissioner, employees have to gather as much evidence as possible. Earning money in cash makes the process harder. </p> 
+        
 
-                    <p> Hours later, after numerous revisions and drafts to ensure that all the details are accurate and all names are spelled correctly, the four-page form is ready. The claimant turns to Fiester and says, “I’m sorry about that. I’m a headache for you.” </p> 
-                     
-                    <p> She shakes her head and replies, “you not being paid is a headache for you, not me.” </p> 
-                     
-                    <p> Organizations like Legal Aid at Work are essential to help workers navigate the wage claim process. But experts like Fiester say that the experience of people who file claims could be improved if the Labor Commissioner was given more resources. </p> 
+	        <div class="embed-responsive embed-responsive-16by9 my-4">
+	          <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/279559382?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+	        </div>
 
-                    <p> In 2015, a statewide oversight agency of California’s various departments, known as The Little Hoover Commission, released a report on how to address California’s underground economy, in which wage theft plays a significant role alongside other illegal practices like tax evasion and insurance fraud. The report found that the state provides “insufficient resources for enforcement,” adding that “many cheaters break the rules because getting caught is unlikely. If they are caught, few are charged in court. When found guiltily, the profits from cheating often outweigh the fines and penalties.” </p> 
 
-                     <blockquote class="container">
-                        <q class="d-block text-right">People say nothing is impossible, but I do nothing every day</q>
-                        <cite class="d-block text-right">— Source</cite>
-                    </blockquote>
-                     
-                    <p> This wasn’t the first time that the need for increased funding to enforce wage and hour laws had been raised, though. In 2013, a report from the UCLA Labor Center and National Employment Law Project called Hollow Victories examined the effectiveness of California’s wage claim process and echoed a similar sentiment. It also found that only 17 percent of workers who have a wage claim decided in their favor were actually able to recover their wages. This was, in part, due to a loophole in the labor code that allowed employers to avoid paying judgments by transferring assets into a new business. At the time of the report, 60 percent of all business entities ruled against were considered inactive by the state. </p> 
-                     
-                    <p> It’s a loophole that attorneys, like Fiester, and their clients are all too familiar with. </p> 
+        	<div class="col-12 col-sm-8">
 
- <figure class="inline-asset-header">
-                        <img src="assets/4_LOOPHOLES.jpg" class="img-fluid d-block" alt="description">
+	          <figure class="inline-asset-header">
+	            <img src="assets/3_LCOFFICE.jpg" class="img-fluid d-block" alt="description">
+	          </figure>
 
-                    <p> One worker, who is not being identified due to his status as an undocumented immigrant and concern of retaliation, said he returned to a job where he had already had his wages stolen because he couldn’t find any other work. His case is a clear example of how drawn out and complicated the process can be for workers. </p> 
+	          <p> On December 7th, 2018, Katherine Fiester, a staff attorney with the Wage Protection Program for Legal Aid at Work, is instructing a handful of law students who have volunteered to help workers fill out their wage claims. </p> 
 
-                    <p> The man returned to his travel agency employer in 2009, even though he believed they still owed him approximately $2,000 in hourly wages from 2003 to 2007. He arranged a new deal with the agency: he would now work on a 35 percent commission. At first, he was paid monthly and on time, but within a year an old pattern started to reemerge. He would write up a statement and ask for his wages. Then, his employer would stall, claiming financial trouble. He said he was forced to borrow money from friends and family for bills and rent, which he would pay late, time after time. When he finally did get paid, it was seldom everything owed. This went on for five more years. </p> 
-                     
-                    <p> After researching his situation online, he reached out to Legal Aid at Work and met Fiester, who guided him through filing a claim with the Labor Commissioner. Because his employer had already threatened to report him to immigration authorities, he filed both a wage and retaliation claim with the Labor Commissioner’s Office in mid-2015.</p> 
-                     
-                    <p> It took about a year before an administrative hearing officer ruled in his favor for almost $54,000 in commissioned wages and damages. However, shortly after the ruling, the business he worked for quietly filed for bankruptcy, but not before the owners transferred all of their assets into a new corporation, which happened to be at the same address under the name of a family member.</p> 
-                     
-                    <p> That didn’t stop him or Fiester, though. They took the employer to court, filing motions, issuing a debtor’s examination and subpoenaing financial records. In 2018, three years after filing his initial claim, they settled for roughly a quarter of the total sum decided by the Labor Commissioner’s Office.</p> 
-                     
-                    <p> “The award, the decision is one thing,” Fiester said. “But collecting on the decision is a whole other thing.”</p>
+	          <p> She is sitting with one of the workers helping them through the process. “He should take care of what he puts on the timecard,” Fiester tells one of the volunteers. “The calculation takes the most time.”  </p> 
 
+	          <p> There are two stacks of forms on the table in the middle of the room. One is in English and the other is in Spanish. On the form, workers are required to fill in blanks with information such as wages promist vs. wages paid, payment method, meal breaks as well as their entire work schedule. A task that is daunting at times, especially if a person doesn’t have all the information required.  </p> 
 
-                     <figure class="inline-asset-header">
-                        <img src="assets/5_UNDERRESOURCED.jpg" class="img-fluid d-block" alt="description"> 
+	          <p> “Can you go to the bank and get a copy of checks?” Fiester asks one of the workers. He replies that he can not because he was paid in cash. In order to make a strong case to the labor commissioner, employees have to gather as much evidence as possible. Earning money in cash makes the process harder. </p> 
 
-                    <p> Tia Koonse, an author of the Hollow Victories report and a research and policy manager with the UCLA Labor Center, said that over the course of her decade-long career representing victims of wage theft she has never seen a worker receive everything they are owed.</p> 
- 
-                    <p>“The employer knows the same thing the worker knows: that collecting on your judgment of unpaid wages is almost impossible,” Koonse said, citing a long and complicated legal process that often requires time, expertise and legal representation to see through. So, for workers earning minimum wage or less, a settlement in the pocket is an offer that is hard to refuse. But Koonse and her report make it clear that those workers who end up seeing even a portion of their wages are the exception and not the rule.</p> 
-                     
-                    <p>In 2015, the state legislature passed a bill that closed certain loopholes, such as the one exploited by the travel agent’s former employer, and added new enforcement tools that allowed business owners to be held directly liable for wage theft. But that bill, SB 588, only expanded the office’s ability to enforce judgments, not its ability to investigate and process wage claims.</p> 
+	          <p> Hours later, after numerous revisions and drafts to ensure that all the details are accurate and all names are spelled correctly, the four-page form is ready. The claimant turns to Fiester and says, “I’m sorry about that. I’m a headache for you.” </p> 
+	           
+	          <p> She shakes her head and replies, “you not being paid is a headache for you, not me.” </p> 
+	           
+	          <p> Organizations like Legal Aid at Work are essential to help workers navigate the wage claim process. But experts like Fiester say that the experience of people who file claims could be improved if the Labor Commissioner was given more resources. </p> 
 
-                    <p>Then, in 2016, then Gov. Jerry Brown proposed a multi-year plan to increase funding and staffing positions for the Labor Commissioner’s Office, largely for the Bureau of Field Enforcement, or BOFE, which investigates labor standards violations for groups of workers. At that time, the bureau had 82  budgeted investigator positions but a 20 percent vacancy rate. The Wage Claims Adjudication unit, where most workers have their wage claims processed and evaluated, had approximately 201 positions, including support staff and hearing officers who rule on wage claims, across 18 offices. The Judgement Enforcement Unit, which helps certain workers collect their awards after a judgement has been issued, only had 17. </p> 
+	          <p> In 2015, a statewide oversight agency of California’s various departments, known as The Little Hoover Commission, released a report on how to address California’s underground economy, in which wage theft plays a significant role alongside other illegal practices like tax evasion and insurance fraud. The report found that the state provides “insufficient resources for enforcement,” adding that “many cheaters break the rules because getting caught is unlikely. If they are caught, few are charged in court. When found guiltily, the profits from cheating often outweigh the fines and penalties.” </p> 
 
-                      <div class="container white-background mt-5">
-                                <img src="./assets/DLSE_BUDGET.png" class="img-fluid d-block" alt="image description">
+	          <blockquote class="container">
+	            <q class="d-block text-right">People say nothing is impossible, but I do nothing every day</q>
+	            <cite class="d-block text-right">— Source</cite>
+	          </blockquote>
+	           
+	          <p> This wasn’t the first time that the need for increased funding to enforce wage and hour laws had been raised, though. In 2013, a report from the UCLA Labor Center and National Employment Law Project called Hollow Victories examined the effectiveness of California’s wage claim process and echoed a similar sentiment. It also found that only 17 percent of workers who have a wage claim decided in their favor were actually able to recover their wages. This was, in part, due to a loophole in the labor code that allowed employers to avoid paying judgments by transferring assets into a new business. At the time of the report, 60 percent of all business entities ruled against were considered inactive by the state. </p> 
+	           
+	          <p> It’s a loophole that attorneys, like Fiester, and their clients are all too familiar with.</p>
 
-                    <p>Since then, the Labor Commissioner's Office has had roughly 75 positions and $16 million added to its budget, mostly for BOFE, according to the 2019 California budget. But some, like Koonse, say that there is still a long way to go. An example of this is the fact that the International Labor Organization, an agency within the United Nations, recommends one labor standards investigator for every 10,000 workers. In California, where the UC Berkeley Labor Center says a quarter of the state’s 19.5 million workers are employed in low-wage industries, that ratio is roughly one to 85,000. The state fares better than others, though. An investigation by Politico published in 2018 found that six states have no wage and hour investigators, and an addition 26 have less than 10. But considering the size and scope of California’s workforce, some say there’s more that needs to be done. </p> 
+	 					<figure class="inline-asset-header">
+	            <img src="assets/4_LOOPHOLES.jpg" class="img-fluid d-block" alt="description">
+	          </figure>
 
-                     <figure class="inline-asset-dv">
-                        <style>.embed-container {position: relative; padding-bottom: 83%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="embed-container"><iframe width="1200" height="1000" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="DLSE District Offices" src="//joshslowiczek.maps.arcgis.com/apps/Embed/index.html?webmap=72c50ce3ff094a5d8ba4942e5080a4fd&extent=-137.8701,31.906,-113.6123,42.7716&zoom=true&previewImage=false&scale=true&legend=true&disable_scroll=true&theme=light"></iframe></div>
-                    </figure>
+	          <p> One worker, who is not being identified due to his status as an undocumented immigrant and concern of retaliation, said he returned to a job where he had already had his wages stolen because he couldn’t find any other work. His case is a clear example of how drawn out and complicated the process can be for workers. </p> 
 
+	          <p> The man returned to his travel agency employer in 2009, even though he believed they still owed him approximately $2,000 in hourly wages from 2003 to 2007. He arranged a new deal with the agency: he would now work on a 35 percent commission. At first, he was paid monthly and on time, but within a year an old pattern started to reemerge. He would write up a statement and ask for his wages. Then, his employer would stall, claiming financial trouble. He said he was forced to borrow money from friends and family for bills and rent, which he would pay late, time after time. When he finally did get paid, it was seldom everything owed. This went on for five more years. </p> 
+	           
+	          <p> After researching his situation online, he reached out to Legal Aid at Work and met Fiester, who guided him through filing a claim with the Labor Commissioner. Because his employer had already threatened to report him to immigration authorities, he filed both a wage and retaliation claim with the Labor Commissioner’s Office in mid-2015.</p> 
+	           
+	          <p> It took about a year before an administrative hearing officer ruled in his favor for almost $54,000 in commissioned wages and damages. However, shortly after the ruling, the business he worked for quietly filed for bankruptcy, but not before the owners transferred all of their assets into a new corporation, which happened to be at the same address under the name of a family member.</p> 
+	           
+	          <p> That didn’t stop him or Fiester, though. They took the employer to court, filing motions, issuing a debtor’s examination and subpoenaing financial records. In 2018, three years after filing his initial claim, they settled for roughly a quarter of the total sum decided by the Labor Commissioner’s Office.</p> 
+	           
+	          <p> “The award, the decision is one thing,” Fiester said. “But collecting on the decision is a whole other thing.”</p>
 
+	          <figure class="inline-asset-header">
+	            <img src="assets/5_UNDERRESOURCED.jpg" class="img-fluid d-block" alt="description"> 
+						</figure>
+	          
+	          <p> Tia Koonse, an author of the Hollow Victories report and a research and policy manager with the UCLA Labor Center, said that over the course of her decade-long career representing victims of wage theft she has never seen a worker receive everything they are owed.</p> 
 
-                    <p>“I would say that the agency is not nearly as well staffed or funded enough to actually address the scope and magnitude of wage theft in our state,” Koonse said.</p> 
+	          <p>“The employer knows the same thing the worker knows: that collecting on your judgment of unpaid wages is almost impossible,” Koonse said, citing a long and complicated legal process that often requires time, expertise and legal representation to see through. So, for workers earning minimum wage or less, a settlement in the pocket is an offer that is hard to refuse. But Koonse and her report make it clear that those workers who end up seeing even a portion of their wages are the exception and not the rule.</p> 
+	           
+	          <p>In 2015, the state legislature passed a bill that closed certain loopholes, such as the one exploited by the travel agent’s former employer, and added new enforcement tools that allowed business owners to be held directly liable for wage theft. But that bill, SB 588, only expanded the office’s ability to enforce judgments, not its ability to investigate and process wage claims.</p> 
 
-                    <p>Torres, a deputy labor commissioner in Oakland, says that while many government agencies want more funding and stuff, it’s ultimately a process out of their hands. </p> 
+	          <p>Then, in 2016, then Gov. Jerry Brown proposed a multi-year plan to increase funding and staffing positions for the Labor Commissioner’s Office, largely for the Bureau of Field Enforcement, or BOFE, which investigates labor standards violations for groups of workers. At that time, the bureau had 82  budgeted investigator positions but a 20 percent vacancy rate. The Wage Claims Adjudication unit, where most workers have their wage claims processed and evaluated, had approximately 201 positions, including support staff and hearing officers who rule on wage claims, across 18 offices. The Judgement Enforcement Unit, which helps certain workers collect their awards after a judgement has been issued, only had 17. </p> 
 
-                    <p>“We as the wage claim adjudication unit do devote all available resources to ensuring that we’re using every tool at our disposal to investigate and adjudicate cases,” he said. “We do, as a state agency, have to work with the resources we have.”</p> 
-                     
-                    <p>But Koonse said that the lack of funding has resulted in an inability to enforce even “the most basic provisions of the labor code.” All in all, it should take no longer than four months for a worker to receive a decision from the Labor Commissioner’s Office.</p> 
-                     
-                    <p>Many, like the travel agency employee and Aldana, can end up waiting for years for the opportunity to see just a portion of what they are owed. But some never see anything at all.</p> 
+	          <div class="container white-background mt-5">
+	            <img src="./assets/DLSE_BUDGET.png" class="img-fluid d-block" alt="image description">
+	          </div>
 
-                     <figure class="inline-asset-header">
-                        <img src="assets/6_HOLLOWVICTORY.jpg" class="img-fluid d-block" alt="description">
+	          <p>Since then, the Labor Commissioner's Office has had roughly 75 positions and $16 million added to its budget, mostly for BOFE, according to the 2019 California budget. But some, like Koonse, say that there is still a long way to go. An example of this is the fact that the International Labor Organization, an agency within the United Nations, recommends one labor standards investigator for every 10,000 workers. In California, where the UC Berkeley Labor Center says a quarter of the state’s 19.5 million workers are employed in low-wage industries, that ratio is roughly one to 85,000. The state fares better than others, though. An investigation by Politico published in 2018 found that six states have no wage and hour investigators, and an addition 26 have less than 10. But considering the size and scope of California’s workforce, some say there’s more that needs to be done. </p> 
 
+					</div>
+        
+	      	<figure class="inline-asset-dv col-12">
+	          <div class="embed-container"><iframe width="1200" height="1000" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="DLSE District Offices" src="//joshslowiczek.maps.arcgis.com/apps/Embed/index.html?webmap=72c50ce3ff094a5d8ba4942e5080a4fd&extent=-137.8701,31.906,-113.6123,42.7716&zoom=true&previewImage=false&scale=true&legend=true&disable_scroll=true&theme=light"></iframe></div>
+	        </figure>
 
-                    <div class="container white-background mt-5">
-                                <img src="./assets/Miguel.jpg" class="img-fluid d-block" alt="image description">
-                    </div>
 
-                    
 
-                    <p>On May 22, 2014, Miguel Gonzalez walked into the towering lobby of the Elihu M. Harris State Office Building in downtown Oakland for the first time.. The 22-story building houses several government offices, so  security is heavy. Other undocumented workers often avoid the area. But, he wasn’t nervous. </p> 
- 
-                    <p>Gonzalez has worked as a day laborer for 22 years. Three times his bosses stiffed him for his pay. The fourth time, the 50-year-old Mexican immigrant had had enough. He was heading to the 8th floor, the Oakland Division of the labor commissioner's office, to file a wage claim against a contractor who had hired him to clean out a burnt house for $120 dollars a day.</p> 
 
-                    <p>When he arrived in the U.S. to make a little more money, he didn’t expect that having this money stolen would be a recurring theme in his life. In addition to his experiences with wage theft, he got entangled in a big wage theft/fraud case around ten years ago that saw him lose his entire life’s savings: a whopping $130,000.  </p> 
-                     
-                    <p>“I don’t understand the laws in this country. If I was to steal a fry from a restaurant, or whatever, I would easily be arrested, even if I don’t have a gun,” he said. “But, where there is a more serious crime like this one, people are let free.”</p> 
+        	<div class="col-sm-8 col-sm-8">
 
-                   <p> Sixteen months after filing his claim,  Gonzalez won his case and was set to receive $3,728 in wages and penalties. He only received $240 of that figure.</p> 
-                     
-                    <p>“I thought to myself, ‘what is this office good for, then?’,” Gonzalez said. “Sometimes, these papers are just decorative.”</p> 
+	          <p>“I would say that the agency is not nearly as well staffed or funded enough to actually address the scope and magnitude of wage theft in our state,” Koonse said.</p> 
 
-                    <p>It was for that very reason Koonse gave the Hollow Victories report its name. “It’s a piece of paper that says you’re owed money,” she said. “What are you going to do, frame it? Great, congratulations. You can’t turn that into something to pay for rent and food.”</p> 
+	          <p>Torres, a deputy labor commissioner in Oakland, says that while many government agencies want more funding and stuff, it’s ultimately a process out of their hands. </p> 
 
-                    <p>Within the Labor Commissioner’s Office is the Judgement Enforcement Unit, or JEU, which assists certain workers who have limited financial resources with collecting their claims after an order, decision or award has been issued by a hearing officer. Monterroza said that if a case is not appealed after a judgement has been made, workers are informed of this avenue, but an analysis of the case-management data provided by the office shows that only 332 cases have been referred to the JEU since January 2017.</p> 
+	          <p>“We as the wage claim adjudication unit do devote all available resources to ensuring that we’re using every tool at our disposal to investigate and adjudicate cases,” he said. “We do, as a state agency, have to work with the resources we have.”</p> 
+	           
+	          <p>But Koonse said that the lack of funding has resulted in an inability to enforce even “the most basic provisions of the labor code.” All in all, it should take no longer than four months for a worker to receive a decision from the Labor Commissioner’s Office.</p> 
+	           
+	          <p>Many, like the travel agency employee and Aldana, can end up waiting for years for the opportunity to see just a portion of what they are owed. But some never see anything at all.</p> 
 
-<figure class="inline-asset-header">
-                        <img src="assets/test.jpg" class="img-fluid d-block" alt="description">
-                        <figcaption class="caption">Photo caption here.... <span class="credit">Photo by Photographer</span></figcaption>
-                    </figure>
+	          <figure class="inline-asset-header">
+	            <img src="assets/6_HOLLOWVICTORY.jpg" class="img-fluid d-block" alt="description">
+	          </figure>
 
+	          <div class="container white-background mt-5">
+	            <img src="./assets/Miguel.jpg" class="img-fluid d-block" alt="image description">
+	          </div>
 
-                    <p>It should be noted that not every employer who has had a wage claim filed against them is guilty of willfully or knowingly violating the law, but many less scrupulous business owners have made every effort to try and avoid getting penalized for wage theft by operating in ways that make them less liable for it.</p> 
- 
-                    <p>For example, in particular industries such as construction and building maintenance, crackdowns on wage theft become increasingly difficult because of the nature of contracting. In order to avoid the responsibility of ensuring that workers are paid properly, some companies and employers hide behind multiple layers of contracts and subcontracts in industries such as janitorial, landscaping, and painting services. Contractors are also the main source of jobs for day laborers like Aldana and Gonzalez.</p> 
-                     
-                    <p>Anel Flores, legal director at the California-based janitorial industry watchdog Maintenance Cooperation Trust Fund (MCTF), says that usually workers do not understand the complexity of subcontracting, making it hard for them to identify which company is responsible for their wages. Sometimes, workers might not even know that they were hired through a contractor in the first place.</p> 
-                     
-                    <p>In addition, she says that in the janitorial industry the process of starting a contracting business tends to be surprisingly informal. Instead of renting a facility, you can operate out of your car. All that is really needed is equipment for the workers. As a result, there are a lot of fly-by-night operations. They’re really small. They don’t keep a lot of paperwork or timesheets. They pay workers in cash and they most probably have not even filed as a corporation, making the process of filling out a wage claim a lot harder.</p> 
-                     
-                    <p>But then Labor Commissioner Su made it clear that general contractors can no longer escape legal liability in that manner. Last year, the Cheesecake Factory was found jointly liable with its subcontractors, under a law signed by Gov. Jerry Brown, in a $4.57 million wage theft case involving 559 janitorial workers who were being underpaid in Southern California restaurants. Moreover, the Labor Commissioner’s Office introduced a janitorial services registration system, where janitorial employers have to register each year with the state labor commissioner.  </p> 
-                     
-                    <p>Those efforts, in addition to SB 588, have been described as major milestones in the fight against wage theft, even catching some of these employers off-guard during hearings. Fiester describes the moment she informed an oblivious lawyer that his client would still be held liable under SB 588, despite his company going bankrupt. Shocked, the client and their attorney walked out of the meeting, unable to grasp the fact that they could be held directly liable. </p> 
+	          <p>On May 22, 2014, Miguel Gonzalez walked into the towering lobby of the Elihu M. Harris State Office Building in downtown Oakland for the first time.. The 22-story building houses several government offices, so  security is heavy. Other undocumented workers often avoid the area. But, he wasn’t nervous. </p> 
 
-                    <p>However, while these efforts are described as positive steps, the widespread impact is yet to be felt, according to Flores and Fiester. And some, like Alor F. Calderon, director of the San Diego-based Employee Rights Center, say employers are still unmoved.</p> 
-                     
-                    <p>“Even though they’re saying over and over and over again in reports about the widespread nature of wage theft, the behavior of the employers is unchallenged.” said Calderon. “The law does not really affect the behavior of the employers and the penalties are not good enough.”</p> 
+	          <p>Gonzalez has worked as a day laborer for 22 years. Three times his bosses stiffed him for his pay. The fourth time, the 50-year-old Mexican immigrant had had enough. He was heading to the 8th floor, the Oakland Division of the labor commissioner's office, to file a wage claim against a contractor who had hired him to clean out a burnt house for $120 dollars a day.</p> 
 
-                    <p>Experts and advocates say there are additional legislative and enforcement tools that can be added but face intense opposition from special interests groups like property and commerce associations. In addition, they say more encouragement should be given to cities and counties to raise and enforce local minimum wage ordinances. </p> 
-                     
-                    <p>“There’s no silver bullet to solving wage theft,” Koonse said. “There’s no magic thing. The secret truth is that minimum wage is paid on an honor system.”</p> 
+	          <p>When he arrived in the U.S. to make a little more money, he didn’t expect that having this money stolen would be a recurring theme in his life. In addition to his experiences with wage theft, he got entangled in a big wage theft/fraud case around ten years ago that saw him lose his entire life’s savings: a whopping $130,000.  </p> 
+	           
+	          <p>“I don’t understand the laws in this country. If I was to steal a fry from a restaurant, or whatever, I would easily be arrested, even if I don’t have a gun,” he said. “But, where there is a more serious crime like this one, people are let free.”</p> 
 
-                    <p>FOOTER TEXT: 
-                    Photography: Anne Wernikoff, Yutao Chen, Sarah EL Safty
-                    Translations: Vianey Alderete, Liliana Michelena
-                    Special Thanks To: John Temple, Jeremy Rue, Richard Koci Hernandez </p> 
+	          <p> Sixteen months after filing his claim,  Gonzalez won his case and was set to receive $3,728 in wages and penalties. He only received $240 of that figure.</p> 
+	           
+	          <p>“I thought to myself, ‘what is this office good for, then?’,” Gonzalez said. “Sometimes, these papers are just decorative.”</p> 
 
-                </div>
-            </article>
-        </section>
-        <script src="app.js" async></script>
-        <%= t.include("partials/_footer.html") %>
-        <%= t.include("partials/_analytics.html", grunt.data.json) %>
+	          <p>It was for that very reason Koonse gave the Hollow Victories report its name. “It’s a piece of paper that says you’re owed money,” she said. “What are you going to do, frame it? Great, congratulations. You can’t turn that into something to pay for rent and food.”</p> 
+
+	          <p>Within the Labor Commissioner’s Office is the Judgement Enforcement Unit, or JEU, which assists certain workers who have limited financial resources with collecting their claims after an order, decision or award has been issued by a hearing officer. Monterroza said that if a case is not appealed after a judgement has been made, workers are informed of this avenue, but an analysis of the case-management data provided by the office shows that only 332 cases have been referred to the JEU since January 2017.</p> 
+
+						<figure class="inline-asset-header">
+	            <img src="assets/test.jpg" class="img-fluid d-block" alt="description">       
+	          </figure>
+
+	          <p>It should be noted that not every employer who has had a wage claim filed against them is guilty of willfully or knowingly violating the law, but many less scrupulous business owners have made every effort to try and avoid getting penalized for wage theft by operating in ways that make them less liable for it.</p> 
+	 
+	          <p>For example, in particular industries such as construction and building maintenance, crackdowns on wage theft become increasingly difficult because of the nature of contracting. In order to avoid the responsibility of ensuring that workers are paid properly, some companies and employers hide behind multiple layers of contracts and subcontracts in industries such as janitorial, landscaping, and painting services. Contractors are also the main source of jobs for day laborers like Aldana and Gonzalez.</p> 
+	                     
+	          <p>Anel Flores, legal director at the California-based janitorial industry watchdog Maintenance Cooperation Trust Fund (MCTF), says that usually workers do not understand the complexity of subcontracting, making it hard for them to identify which company is responsible for their wages. Sometimes, workers might not even know that they were hired through a contractor in the first place.</p> 
+	           
+	          <p>In addition, she says that in the janitorial industry the process of starting a contracting business tends to be surprisingly informal. Instead of renting a facility, you can operate out of your car. All that is really needed is equipment for the workers. As a result, there are a lot of fly-by-night operations. They’re really small. They don’t keep a lot of paperwork or timesheets. They pay workers in cash and they most probably have not even filed as a corporation, making the process of filling out a wage claim a lot harder.</p> 
+	           
+	          <p>But then Labor Commissioner Su made it clear that general contractors can no longer escape legal liability in that manner. Last year, the Cheesecake Factory was found jointly liable with its subcontractors, under a law signed by Gov. Jerry Brown, in a $4.57 million wage theft case involving 559 janitorial workers who were being underpaid in Southern California restaurants. Moreover, the Labor Commissioner’s Office introduced a janitorial services registration system, where janitorial employers have to register each year with the state labor commissioner.  </p> 
+	           
+	          <p>Those efforts, in addition to SB 588, have been described as major milestones in the fight against wage theft, even catching some of these employers off-guard during hearings. Fiester describes the moment she informed an oblivious lawyer that his client would still be held liable under SB 588, despite his company going bankrupt. Shocked, the client and their attorney walked out of the meeting, unable to grasp the fact that they could be held directly liable. </p> 
+
+	          <p>However, while these efforts are described as positive steps, the widespread impact is yet to be felt, according to Flores and Fiester. And some, like Alor F. Calderon, director of the San Diego-based Employee Rights Center, say employers are still unmoved.</p> 
+	           
+	          <p>“Even though they’re saying over and over and over again in reports about the widespread nature of wage theft, the behavior of the employers is unchallenged.” said Calderon. “The law does not really affect the behavior of the employers and the penalties are not good enough.”</p> 
+
+	          <p>Experts and advocates say there are additional legislative and enforcement tools that can be added but face intense opposition from special interests groups like property and commerce associations. In addition, they say more encouragement should be given to cities and counties to raise and enforce local minimum wage ordinances. </p> 
+	           
+	          <p>“There’s no silver bullet to solving wage theft,” Koonse said. “There’s no magic thing. The secret truth is that minimum wage is paid on an honor system.”</p> 
+
+	          <p>FOOTER TEXT: 
+	          Photography: Anne Wernikoff, Yutao Chen, Sarah EL Safty
+	          Translations: Vianey Alderete, Liliana Michelena
+	          Special Thanks To: John Temple, Jeremy Rue, Richard Koci Hernandez </p> 
+
+        	</div>
+      	</article>
+    	</section>
+
     </div>
-</body>
+
+    <script src="app.js" async></script>
+    <%= t.include("partials/_footer.html") %>
+    <%= t.include("partials/_analytics.html", grunt.data.json) %>
+    
+	</body>
 
 </html>
