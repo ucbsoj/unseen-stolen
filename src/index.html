@@ -5,10 +5,8 @@
   <title><%= json.project.seo_title %></title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+  <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
   <link rel="stylesheet" type="text/css" href="./assets/bootstrap.css">
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="style.css">
   <%= t.include("partials/_meta.html", grunt.data.json) %>
 </head>
@@ -19,16 +17,14 @@
 
     <div id="skrollr-body">
       
-      <div class="container position-relative" role="main">
-        <section id="topper" class="d-flex align-items-center justify-content-center">
-          <div class="title middle-container text-center d-flex flex-column position-relative">
-            <h1 class="text-center text-hide" style="background-image: url(/assets/STOLEN_FINAL_PNG.png);">Stolen</h1>
-            <div class="">
-            	<div class=""></div>
-            </div>
+      <section id="topper" class="container" role="main">
+        <div class="d-flex align-items-center justify-content-center">
+          <div class="text-center d-flex flex-column">
+            <h1 class="text-hide" style="background-image: url(/assets/STOLEN_FINAL_PNG.png);">Stolen</h1>
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
+
 
       <div id="headers-appear" class="container text-center mb-5">
         <h3 class="shrink-mobile">WAGE THEFT IS RAMPANT</h3>
@@ -36,41 +32,7 @@
         <h3 class="shrink-mobile">AND CALIFORNIA IS STRUGGLING TO FILL THE GAP</h3>
       </div>
 
-<!--         <section id="second" class="container">
-            <div class="row justify-content-between">
-                <div class="col-5">
-                    <img src="http://placehold.it/1800x2000" class="img-fluid d-block" alt="Placeholder">
-                </div>
-                <div class="col-5 align-self-center">
-                    <h3 data-200-center-top="opacity:0;" data-100-center-top="opacity:1;" class="shrink-mobile">Wage theft is rampant</h3>
-                </div>
-            </div>
-        </section>
-        <section id="third" class="container">
-            <div class="row justify-content-between">
-                <div class="col-5">
-                    <img src="http://placehold.it/1800x2000" class="img-fluid d-block" alt="Placeholder">
-                </div>
-                <div class="col-5 align-self-center">
-                    <h3 data-200-center-top="opacity:0;" data-100-center-top="opacity:1;" class="shrink-mobile">Federal enforcement is down</h3>
-                </div>
-            </div>
-        </section>
-        <section id="fourth" class="container">
-            <div class="row justify-content-between">
-                <div class="col-5">
-                    <img src="http://placehold.it/1800x2000" class="img-fluid d-block" alt="Placeholder">
-                </div>
-                <div class="col-5 align-self-center">
-                    <h3 data-200-center-top="opacity:0;" data-100-center-top="opacity:1;" class="shrink-mobile">And California is struggling to fill the gap...</h3>
-                </div>
-            </div>
-        </section> -->
-      
-        
-      
-      <div id="end-middle-line"></div>
-      
+
       
       <section id="fifth" class="container white-background pt-5">
 
@@ -203,7 +165,9 @@
           <figcaption class="caption"><b>Note: Click the arrows (>>) in upper left corner for legend.</b> 
             <span class="credit"></span></figcaption></figure>
       		<figure class="inline-asset-dv">
-	      		<div class="embed-container"><iframe width="1200" height="1000" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Federal Wage and Hour Violations" src="//joshslowiczek.maps.arcgis.com/apps/Embed/index.html?webmap=93740472975e4e08aae0268f42e955c8&extent=-160.9567,17.3852,-63.9254,58.8097&zoom=true&previewImage=false&scale=false&legend=true&disable_scroll=true&theme=light"></iframe></div><figcaption class="caption">
+	      		<div class="embed-container">
+              <iframe width="1200" height="1000" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Federal Wage and Hour Violations" src="//joshslowiczek.maps.arcgis.com/apps/Embed/index.html?webmap=93740472975e4e08aae0268f42e955c8&extent=-160.9567,17.3852,-63.9254,58.8097&zoom=true&previewImage=false&scale=false&legend=true&disable_scroll=true&theme=light"></iframe>
+            </div><figcaption class="caption">
             This visualization shows the average amount owed in backwashes per claim filed in each state. <span class="credit"><i>Source: United States Department of Labor Wage and Hour Division Enforcement Database</i></span></figcaption></figure>
            
 

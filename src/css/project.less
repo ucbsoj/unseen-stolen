@@ -65,8 +65,8 @@ body {
 
 #topper{
 
-	height:50vw;
-	margin-bottom: 50vh;
+	padding-top: 20rem;
+	padding-bottom: 0rem;
 
 	//UNSEEN LOGO
 	h1{
@@ -114,29 +114,28 @@ body {
 	// 	width:100%;
 	// }
 
-	.line-down-middle-container{
-		position:absolute;
-		top: 124px;
-		height: 30vh; //THIS IS HOW TALL THE LINE DOWN THE MIDDLE WILL GROW TO
-		left: 0;
-		width: 100%;
-		// background-color: #fff;
+	// .line-down-middle-container{
+	// 	position:absolute;
+	// 	top: 124px;
+	// 	height: 30vh; //THIS IS HOW TALL THE LINE DOWN THE MIDDLE WILL GROW TO
+	// 	left: 0;
+	// 	width: 100%;
+	// 	// background-color: #fff;
 
-		.line-down-middle{
-			width: 1px;
-			border-right: 2px solid #000;
-			position:relative;
-			left: 50%;
-			transform: translateX(-2px);
-			height: 0;
-			transition: height .5s;
-			// transition-delay: 1s;
-		}
-		.line-down-middle.active{
-			height: 90vh;
-		}
-
-	}
+	// 	.line-down-middle{
+	// 		width: 1px;
+	// 		border-right: 2px solid #000;
+	// 		position:relative;
+	// 		left: 50%;
+	// 		transform: translateX(-2px);
+	// 		height: 0;
+	// 		transition: height .5s;
+	// 		// transition-delay: 1s;
+	// 	}
+	// 	.line-down-middle.active{
+	// 		height: 90vh;
+	// 	}
+	// }
 }
 
 blockquote{ 
@@ -159,16 +158,24 @@ blockquote{
 //THE SECTION WHERE THOSE THREE LINES APPEAR
 #headers-appear{
 
-	padding-top: .5vh;
-  padding-bottom: 60vh;
-  color:#fff;
-  text-shadow: 2px 2px 2px #000;
-  font-size: 10rem;
+
+  color: #fff;
+
+  font-size: 7rem; //controls spacing between lines
+  margin-top: 7rem;
+  margin-bottom: 7rem;
 
 	h3{
 		transition: opacity .5s;	
-		opacity:0;
-		font-family: @sans-serif;
+		opacity: 0;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 900;
+		font-size: 3vw;
+		background-color: rgba(0,0,0,0.7);
+	    display: inline-block;
+	    line-height: 3rem;
+	    padding: 18px;
+	    margin: 0;
 	}
 
 	h3.active{
@@ -290,9 +297,9 @@ blockquote{
 //     background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 1) 100%);
 // }
 
-// #fifth {
-//     background: #fff;
-// }
+#fifth {
+    margin-top: 10rem;
+}
 
 
 // .bg-video {

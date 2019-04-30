@@ -18,7 +18,7 @@ $(document).scroll(function() {
 
   var scroll = $(document).scrollTop();
 
-  if(scroll > $("#headers-appear").offset().top-400){
+  if(scroll > $("#headers-appear").offset().top-600){
     $("#headers-appear h3").addClass("active");
   }
 
