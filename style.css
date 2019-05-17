@@ -476,6 +476,13 @@ blockquote cite {
   max-width: 400px;
   margin: 0 0 10px 10px;
 }
+.top-byline {
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  font-family: "Source Sans Pro", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
 article p {
   font-size: 18px;
 }
